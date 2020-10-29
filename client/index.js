@@ -1,6 +1,7 @@
 
-// var question = ["What was Tandem's Previous Name?"]
+// var question = ["What was Tandem's Previous Name?", "Devmynd"]
 
-// for ( var i= 0; i < question.length; i++) {
+// // for ( var i= 0; i < question.length; i++) {
+//     console.log("The correct answer is" + question[i]);
 
-// }
+// // }
