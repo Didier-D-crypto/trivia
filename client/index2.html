@@ -1,105 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Trivia Correct Answer</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
     <link href="stylesheets/style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Saira&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Saira&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald"
-      rel="stylesheet"
-    />
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
-  </head>
+</head>
 
-  <body>
+<body>
     <section class="section">
-      <div class="container" style="margin-left: 375px">
-        <div class="card has-text-centered is-wide">
-          <div class="card-content">
-            <h1 class="heading animated lightSpeedIn">
-              <i class="fas fas fa-gamepad"> </i>Trivia
-            </h1>
+        <div class="container" style="margin-left: 375px">
+            <div class="card has-text-centered is-wide">
+                <div class="card-content">
+                    <h1 class="heading animated lightSpeedIn">
+                        <i class="fas fas fa-gamepad"> </i>Trivia
+                    </h1>
 
-            <h2 class="animated flipInY delay-1s">
-              Round of Trivia
-            </h2>
+                    <h2 class="animated flipInY delay-1s">
+                        Round of Trivia
+                    </h2>
 
-            <form class="signup animated fadeIn delay-1s">
-              <div class="field">
-                <br />
-                <p class="control has-icons-left has-icons-right">
-                  <input
-                    class="input"
-                    type="question"
-                    placeholder="What was Tandem's first name?"
-                    id="question-input"
-                  />
-                  <span class="icon is-small is-left">
-                    <i class="fas fas fa-question"></i>
-                  </span>
-                  <span class="icon is-small is-right">
-                    <i class="fas fa-check"></i>
-                  </span>
-                </p>
-              </div>
-              <div class="field">
-                <p class="control has-icons-left">
-                  <input
-                    class="input"
-                    type="password"
-                    placeholder="Password"
-                    id="password-input"
-                  />
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-answer"></i>
-                  </span>
-                </p>
-              </div>
-              <div class="field">
-                <p class="control">
-                  <button class="button is-info is-light" type="submit">
-                    Generate
-                  </button>
-                </p>
-              </div>
-              <div
-                style="display: none"
-                id="alert"
-                class="alert alert-danger"
-                role="alert"
-              >
-                <span
-                  class="glyphicon glyphicon-exclamation-sign"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Error:</span> <span class="msg"></span>
-              </div>
-              <p> Return to Main Page <a href="/index.html">here</a></p>
-            </form>
-          </div>
+                    <form class="signup animated fadeIn delay-.5s">
+                        <div class="field">
+                            <br />
+                            <p>What was Tandem's First Name?</p>
+
+                            
+                             <p> -Burger Shack
+                                -Tandem
+                                -Extraordinary Humans
+                                -Devmynd
+                                </p>
+
+                            <script>
+                                for(var TandemFirstName= 0; TandemFirstName< 5; i++) {
+                                    console.log("First name is" + TandemFirstName)
+                                }
+                            </script>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="password" placeholder="Password" id="password-input" />
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-answer"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control">
+                                <button class="button is-info is-light" type="submit">
+                                    Generate
+                                </button>
+                            </p>
+                        </div>
+                        <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+                            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                            <span class="sr-only">Error:</span> <span class="msg"></span>
+                        </div>
+                        <p> Return to Main Page <a href="/index.html">here</a></p>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/signup.js"></script>
-  </body>
+</body>
+
 </html>

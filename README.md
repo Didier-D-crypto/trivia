@@ -2,7 +2,7 @@ Welcome to Round of Trivia
 Sponsored By Tandem-
 
 Intructions:
-[]User can view questions
+[x]User can view questions
 []Questions with their multiple choice options must be displayed one at a time
 []Questions should not repeat in a round 
 []User can only select 1 answer out of the possible 4 
